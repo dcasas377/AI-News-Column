@@ -1,0 +1,37 @@
+:root {
+    --header-color: rgb(255, 4, 4);
+    --font-color: #0008fc;
+    --bg-color: #373353;
+ }
+ @keyframes fadeBg {
+    0% { background-color: rgb(255, 255, 255); }
+
+}
+ body {
+    color: var(--font-color);
+    animation: fadeBg 0.9s infinite alternate;
+ }
+       
+ h1 {
+    color: var(--header-color);
+  }
+       
+ h2 {
+    color: var(--header-color);
+ }
+ 
+ a:link {
+    color: var(--font-color);  
+ }   
+ 
+ a:visited {
+    color: var(--font-color);  
+ }   
+ 
+ a:hover {
+    color: yellow; 
+ }  
+ 
+ a:active {
+    color: purple;
+ }   
