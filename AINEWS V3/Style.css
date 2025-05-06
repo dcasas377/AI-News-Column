@@ -8,7 +8,7 @@
 .navbar {
     background-image: url('background.jpg');
     background-size: cover;
-    background-position: center;
+    background-position: bottom center;
     background-repeat: no-repeat;
     border-bottom: 2px solid rgba(255, 255, 255, 0.2);
     position: relative;
